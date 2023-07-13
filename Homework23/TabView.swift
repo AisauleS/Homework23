@@ -17,7 +17,7 @@ struct TabbView: View {
                         Text("Медиатека")
                     }
                 
-                Text("Радио")
+                RadioView()
                     .tabItem {
                         Image(systemName: "dot.radiowaves.left.and.right")
                         Text("Радио")
